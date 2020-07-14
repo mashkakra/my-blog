@@ -10,19 +10,32 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
 }
-
+body a {
+    color: black;
+}
+    
+.navigation{
+   text-align: left;
+}
 .container {
   max-width: 928px;
   margin: 0 auto;
   padding: 0 16px;
 }
+main a {
+    background-color: whitesmoke;
+}
 
 .page-header {
   margin: 0 0 160px;
   padding: 32px 0 32px;
+   background-color: white;
+    color: #288be6;
+    
 }
-
-.page-header .container,
+.introduction{
+    background-color: whitesmoke;
+}
 .page-footer .container {
   max-width: 1408px;
   text-align: right;
@@ -36,14 +49,24 @@ body {
   background-position: left;
 }
 
+}
 .header-email {
   padding-left: 30px;
   background-image: url("img/icon-email-header.svg");
+   
 }
 
 .header-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-header.svg");
+   
+
+}
+.header-wk{
+    background-image: url("img/vk-header.svg");
+    padding-left: 40px;
+    
+    
 }
 
 .hero-image {
@@ -117,7 +140,10 @@ body {
 .skill-css {
   background-image: url("img/icon-css.svg");
 }
-
+    .letter{
+        font-style: oblique;
+        
+    }
 .level {
   margin: 4px 0 16px;
   padding: 0;
@@ -157,7 +183,8 @@ body {
 .projects p {
   margin: 0 0 24px;
 }
-
+*\
+    
 .button {
   padding: 6px 20px;
   display: inline-block;
@@ -191,4 +218,16 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+.footer-wk{
+    background-image: url("img/vk-footer.svg");
+    padding-left: 40px;
+}
+.page-footer{
+    background-color:#00417d;
+    color:#ffffff;
+    
+}
+.page-footer a {
+    color:#ffffff;
 }
